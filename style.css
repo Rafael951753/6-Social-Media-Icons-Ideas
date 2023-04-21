@@ -1,0 +1,664 @@
+body{
+  background-color:  #423838;
+  color: white;
+}
+
+#title{
+    text-align: center;
+}
+
+/*============IDEE 1=================================================
+=========================================================================
+=========================================*/
+#container1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 100px;
+    width: 100%;
+    margin: none;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+
+}
+
+    #sc-box1{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       
+        height: 50px;
+       width: auto;
+        font-size: 30px;
+        
+    }
+  
+
+    #twitter1{
+        cursor: pointer;
+        display: flex;
+             justify-content: center;
+             align-items: center;
+    background-color: white;
+    color: rgb(132, 146, 226);
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    margin-right: 25px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.404);
+    
+    }
+
+    #twitter1:hover{
+        background-color:rgb(132, 146, 226); 
+        color: white;
+        transition: background-color 0.5s ease, color 0.5s ease;
+    }
+
+
+#facebook1{
+   cursor: pointer;
+    display: flex;
+         justify-content: center;
+         align-items: center;
+background-color: white;
+color: rgb(48, 61, 138);
+height: 50px;
+width: 50px;
+border-radius: 10px;
+margin-right: 25px;
+box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.404);
+
+}
+
+#facebook1:hover{
+    background-color:rgb(48, 61, 138); 
+    color: white;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    
+}
+
+
+
+#instagram1{
+    cursor: pointer;
+    display: flex;
+         justify-content: center;
+         align-items: center;
+background-color: white;
+color: rgb(177, 79, 49);
+height: 50px;
+width: 50px;
+border-radius: 10px;
+margin-right: 25px;
+box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.404);
+
+}
+
+
+#instagram1:hover{
+    background: linear-gradient(to bottom right , #9b2d02, #d3b323);
+    color: white;
+    transition: background-color 0.5s ease, color 1s ease;
+}
+
+
+#github1{
+    cursor: pointer;
+    display: flex;
+         justify-content: center;
+         align-items: center;
+background-color: white;
+color: rgb(0, 0, 0);
+height: 50px;
+width: 50px;
+border-radius: 10px;
+margin-right: 25px;
+box-shadow:  4px 3px 5px rgba(0, 0, 0, 0.404);
+transition: background-color 0.5s ease, color 0.5s ease;
+
+}
+
+#github1:hover{
+    background: linear-gradient(to bottom  , #f5af96, #e6bb11);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+
+
+#linkedin1{
+    cursor: pointer;
+    display: flex;
+         justify-content: center;
+         align-items: center;
+background-color: white;
+color: rgb(56, 40, 129);
+height: 50px;
+width: 50px;
+border-radius: 10px;
+margin-right: 25px;
+box-shadow:  4px 3px 5px rgba(0, 0, 0, 0.404);
+
+}
+
+#linkedin1:hover{
+    background-color: rgb(56, 40, 129);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+
+
+/*=========================================================================================
+==========================IDEE 2================================================
+======================================================================================*/
+
+
+    #sc-box2{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       
+        height: 50px;
+       width: auto;
+        font-size: 30px;
+        
+    }
+
+
+
+    #twitter2{
+        cursor: pointer;
+        display: flex;
+             justify-content: center;
+             align-items: center;
+    background-color: white;
+    color: rgb(132, 146, 226);
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+    
+    
+    border-radius: 12px;
+            box-shadow:  5px 5px 8px #c4baba,
+             -5px -5px 8px #e4e4e4;
+             
+            
+    
+    }
+
+    #twitter2:hover{
+       border-radius: 12px;
+background: #e0e0e0;
+box-shadow: inset 5px 5px 10px #969696,
+            inset -5px -5px 10px #ffffff;
+            color:rgba(132, 146, 226, 0.8); ;
+             
+
+    }
+
+
+#facebook2{
+   cursor: pointer;
+    display: flex;
+         justify-content: center;
+         align-items: center;
+background-color: white;
+color: rgb(48, 61, 138);
+height: 50px;
+width: 50px;
+margin-right: 25px;
+
+
+border-radius: 12px;
+            box-shadow:  5px 5px 8px #c4baba,
+             -5px -5px 8px #e4e4e4;
+
+}
+
+#facebook2:hover{
+    border-radius: 12px;
+background: #e0e0e0;
+box-shadow: inset 5px 5px 10px #969696,
+            inset -5px -5px 10px #ffffff;
+            color:rgb(48, 61, 138,0.8);
+    
+}
+
+
+
+#instagram2{
+    cursor: pointer;
+    display: flex;
+         justify-content: center;
+         align-items: center;
+background-color: white;
+color: rgb(177, 79, 49);
+height: 50px;
+width: 50px;
+margin-right: 25px;
+
+border-radius: 12px;
+            box-shadow:  5px 5px 8px #c4baba,
+             -5px -5px 8px#e4e4e4;
+
+}
+
+
+#instagram2:hover{
+background: #e0e0e0;
+box-shadow: inset 5px 5px 10px #969696,
+            inset -5px -5px 10px #ffffff;
+            color:rgb(177, 79, 49,0.8);
+}
+
+
+#github2{
+    cursor: pointer;
+    display: flex;
+         justify-content: center;
+         align-items: center;
+background-color: white;
+color: rgb(0, 0, 0);
+height: 50px;
+width: 50px;
+margin-right: 25px;
+
+border-radius: 12px;
+            box-shadow:  5px 5px 8px #c4baba,
+             -5px -5px 8px #e4e4e4;
+
+}
+
+#github2:hover{
+background: #e0e0e0;
+box-shadow: inset 5px 5px 10px #969696,
+            inset -5px -5px 10px #ffffff;
+            color:rgba(0, 0, 0, 0.8);
+}
+
+
+
+#linkedin2{
+    cursor: pointer;
+    display: flex;
+         justify-content: center;
+         align-items: center;
+background-color: white;
+color: rgb(56, 40, 129);
+height: 50px;
+width: 50px;
+margin-right: 25px;
+
+border-radius: 12px;
+            box-shadow:  5px 5px 8px #c4baba,
+             -5px -5px 8px #e4e4e4;
+
+}
+
+#linkedin2:hover{
+ background: #e0e0e0;
+box-shadow: inset 5px 5px 10px #969696,
+            inset -5px -5px 10px #ffffff;
+            color: rgb(56, 40, 129,0.8);
+}
+
+
+
+/*=========================================================================================
+==========================IDEE 3================================================
+======================================================================================*/
+
+
+ 
+     #sc-box3{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        
+         height: 50px;
+        width: auto;
+         font-size: 30px;
+         
+     }
+     
+    #sc-box3 ul{
+
+        display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0px;
+          margin: 0px;
+          
+
+    }
+
+    #sc-box3 ul li {
+        
+        list-style: none;
+        padding: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-right: 40px;
+        margin-left: 10px;
+        
+        
+    }
+
+    #sc-box3 ul li:hover {
+        z-index: 1000;
+        transform: scale(1.25);
+        transition: 0.5s;  
+    }
+
+#twitter3{
+    color: rgb(132, 146, 226);;
+}
+#twitter3:hover{
+    text-shadow: 0px 0px 15px   rgb(132, 146, 226)   ;
+}
+
+  #facebook3{
+    color:rgb(48, 61, 138);
+   }
+
+   #facebook3:hover{
+    text-shadow: 0px 0px 15px   rgb(48, 61, 138);  ;
+}
+   #instagram3{
+   color:  rgb(177, 79, 49);
+   }
+   #instagram3:hover{
+    text-shadow: 0px 0px 15px   rgb(132, 146, 226)   ;
+}
+   #github3{
+    color: black;
+   }
+   #github3:hover{
+    text-shadow: 0px 0px 15px   rgb(0, 0, 0)   ;
+}
+   #linkedin3{
+    color: rgb(56, 40, 129);
+   }
+   #linkedin3:hover{
+    text-shadow: 0px 0px 15px  rgb(56, 40, 129);  ;
+}
+
+
+/*=========================================================================================
+==========================IDEE 4================================================
+======================================================================================*/
+
+
+#container-d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+     height: 100px;
+     width: 100%;
+     margin: none;
+     background-color: rgb(34, 29, 29);
+     margin-bottom: 50px;
+    
+ 
+ }
+ 
+
+
+#sc-box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   height: 50px;
+  width: auto;
+   font-size: 30px;
+   
+}
+
+#sc-box4 ul{
+
+   
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+   color: black;
+
+}
+
+#sc-box4 ul li {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+background-color: yellow;
+    list-style: none;
+    padding: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 25px;
+   
+}
+
+#sc-box4 ul li:hover {
+   
+    transform: scale(1.5);
+   transition: 0.5s ease-in-out;
+ 
+}
+
+#sc-box4 ul li:hover ~ #sc-box4 ul li {
+    transform: scale(0.3);
+    transition: 0.5s ease-in-out;
+  }
+
+    /*=========================================================================================
+==========================IDEE 5================================================
+======================================================================================*/
+#sc-box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+   height: 50px;
+  width: auto;
+   font-size: 25px;
+   
+}
+
+
+
+#sc-box5 ul{
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+   color: black;
+
+}
+
+#sc-box5 ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background-color: #411b99;
+    margin-right: 20px;
+
+  }
+  
+.card {
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+    background: #d3b323;
+
+  }
+  .card:hover{
+transform: rotateY(180deg);
+transition: 1s ;
+
+  }
+
+  #face{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: absolute;
+border-radius: 12px;
+width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: linear-gradient(90deg , #888783, #866f10);
+    background-size: 200% 200%;
+    animation: fancy 2.5s infinite ease-in-out;
+    color: #ffffff;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+
+ 
+
+  #back{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background: linear-gradient(90deg , #888783, #866f10);
+        background-size: 200% 200%;
+        animation: fancy 2.5s infinite ease-in-out;
+        color: #ffffff;
+        transform: rotateY(180deg);
+        transition: background-color 0.5s ease, color 0.5s ease;
+    
+      }
+
+       @keyframes fancy{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+  }
+    
+ /*=========================================================================================
+==========================IDEE 6================================================
+======================================================================================*/
+.contaier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 137, 60);
+    
+  }
+  
+  .bottom-div {
+     
+    height: 100px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+   
+    background-color: rgb(20, 20, 54);
+  }
+  
+  .bottom-div p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin: 0px;
+  margin-right: 20px;
+  width: 80px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.63);
+  
+  
+  }
+  
+  
+  .top-div  {
+   
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+   
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  
+  .top-div li{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: black;
+  color: white;
+  list-style: none;
+  margin-right: 20px;
+  width: 80px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.11);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(3.3px);
+      font-size: 25px;
+  
+  }
+  
+  
+  
+  .top-div li:hover {
+    
+    background: rgba(255, 255, 255, 0);
+  
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    
+   transition: 0.5s ease-in-out;
+   z-index: 0;
+   transform: translateY(-23px);
+   
+  
+  }
+  
+
+  
+  
+  
